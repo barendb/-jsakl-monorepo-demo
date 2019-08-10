@@ -11,5 +11,12 @@
   "dependencies": {
     "@jsakl/module1": "file:../module1",
     "@jsakl/module2": "file:../module2"
+  },
+  "publishConfig": {
+    "registry": "http://0.0.0.0:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:barendb/-jsakl-monorepo-demo.git"
   }
 }

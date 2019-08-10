@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean:node-modules": "lerna clean --yes",
     "clean:lib": "lerna exec -- rm -rf lib",
     "clean": "npm run clean:lib && npm run clean:node-modules",
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run tsc"
+    "build": "lerna run tsc",
+    "publish": "lerna publish --yes"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "lerna": "^3.16.4"
   },
-  "dependencies": {
-    "@jsakl/module1": "file:modules/module1",
-    "@jsakl/module2": "file:modules/module2",
-    "@jsakl/module3": "file:modules/module3"
+  "publishConfig": {
+    "registry":"http://0.0.0.0:4873"
   }
 }
