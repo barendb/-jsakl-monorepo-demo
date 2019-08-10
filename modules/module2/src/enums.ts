@@ -1,0 +1,21 @@
+// 😹
+export enum TypesOfCats {
+  Aegean_cat,
+  American_Longhair,
+  Asian_Semi_longhair,
+  Balinese,
+  Birman,
+  British_Longhair,
+  Chantilly_Tiffany_cat,
+  Himalayan,
+  Javanese,
+  Maine_Coon,
+  Nebelung,
+  Norwegian_Forest_Cat,
+  Oriental_Longhair,
+  Persian,
+  Ragdoll,
+  Siberian,
+  Turkish_Van,
+  Turkish_Angora,
+}

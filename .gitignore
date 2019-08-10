@@ -1,0 +1,30 @@
+.DS_Store
+
+# package directories
+node_modules/
+jspm_packages
+
+# Serverless directories
+.serverless/
+
+# IDE Cruft
+.idea/
+.vscode/
+
+# TSC output
+lib/
+
+# Jest
+coverage/
+
+# localdynamo
+.dynamodb/
+
+# merged graphql schema
+# this is because appsync-emulator-serverless does not support an array of schema files
+sls/api/schema.graphql
+
+# lambda layers copies the package-lock from the main repo
+sls/layers/lambda-common/package-lock.json
+
+.artifacts/

@@ -1,0 +1,15 @@
+{
+  "name": "@jsakl/module3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jsakl/module1": "file:../module1",
+    "@jsakl/module2": "file:../module2"
+  }
+}

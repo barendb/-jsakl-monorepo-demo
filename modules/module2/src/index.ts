@@ -1,0 +1,1 @@
+export { TypesOfCats } from './enums'
