@@ -10,5 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "verror": "^1.10.0"
+  },
+  "publishConfig": {
+    "registry": "http://0.0.0.0:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:barendb/-jsakl-monorepo-demo.git"
   }
 }
